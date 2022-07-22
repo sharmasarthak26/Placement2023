@@ -17,8 +17,13 @@ public class Bitwise_Operator {
 		int z=1;
 		System.out.println("~z="+(~z));
 		
-		//Bitwise XOR
+		//Bitwise XOR: leetcode ques. no.128(single number)
 		
+//		Rigth Shift
+//		a>>1 means divide by 2
+		
+//		Left Shift
+//		a<<1 means multiple by 2
 	}
 
 }

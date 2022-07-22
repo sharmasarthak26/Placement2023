@@ -9,19 +9,28 @@ public class Single_number {
 		Check(nums);
 	}
 	public static void Check(int [] nums) {
-		int count=0;
-//		int n=0;
 		for(int i=0;i<nums.length;i++) {
-			boolean n=true;
+			int n=0;
 			for(int j=1;j<nums.length-1;j++) {
 				if(nums[i]==nums[j]) {
-					n=false;	
+					n=1;	
 				}
 			}
-			if(n) {
+			if(n==0) {
 				System.out.println(nums[i]);
 			}
 		}
 	}
+
+	
+	//	ALternate Method: XOR
+	
+//	public int singleNumber(int[] nums) {
+//        int n=0;
+//        for(int i=0;i<nums.length;i++) {
+//            n=n^nums[i];
+//        }
+//        return n;
+//    }
 
 }
